@@ -46,7 +46,7 @@ MEDIOS_OBJETIVO = [
     "clarin.com",
     "a24.com",
     "pagina12.com.ar",
-    "infobae.com",   # ← nuevo medio
+    "infobae.com"
 ]
 ```
 
