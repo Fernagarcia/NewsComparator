@@ -4,6 +4,8 @@ requests>=2.31.0
 beautifulsoup4>=4.12.0
 GoogleNews>=1.6.14
 trafilatura>=1.8.0
+pandas
+Jinja2
 
 # === Etapa 2 (próxima): NLP ===
 # spacy>=3.7.0

@@ -18,13 +18,14 @@ MEDIOS_OBJETIVO = [
 GOOGLENEWS_CONFIG = {
     "lang": "es",
     "region": "AR",
-    "paginas": 5,           # Cuántas páginas de resultados recorrer (1 página ≈ 10 noticias)
+    "paginas": 1,           # Cuántas páginas de resultados recorrer (1 página ≈ 10 noticias)
 }
 
 # Configuración del scraper HTTP
 SCRAPER_CONFIG = {
     "timeout": 15,          # Segundos antes de abandonar una request
     "delay_entre_requests": 1.5,  # Segundos de espera entre artículo y artículo (cortesía)
+    "resolver_workers": 3,
     "user_agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
