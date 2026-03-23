@@ -1,0 +1,17 @@
+
+# === Etapa 1: Scraping y extracción ===
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+GoogleNews>=1.6.14
+trafilatura>=1.8.0
+
+# === Etapa 2 (próxima): NLP ===
+# spacy>=3.7.0
+# pysentimiento>=0.7.0
+
+# === Etapa 3 (próxima): Embeddings y análisis ===
+# sentence-transformers>=2.7.0
+# scikit-learn>=1.4.0
+
+# === Utilidades ===
+python-dateutil>=2.9.0
