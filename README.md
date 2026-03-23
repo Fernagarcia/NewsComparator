@@ -1,4 +1,4 @@
-# Media Bias Analyzer
+# NewsComparator
 
 Proyecto de ciencia de datos para analizar cómo distintos medios de comunicación
 cubren una misma noticia y detectar diferencias en enfoque, tono y posibles sesgos narrativos.
